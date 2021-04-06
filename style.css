@@ -1,0 +1,204 @@
+
+body{
+    background:url('./images/518296.png');
+  background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+
+
+nav{
+    display:flex;
+    background:rgba(0,0,0,0.5);
+    width:50vw;
+    top:500px;
+    margin-left: 25vw;
+    margin-right:45vw;
+}
+.badge {
+  position: fixed;
+  bottom: 0;
+  left: 5;
+  width:100px;
+  height: 100px; 
+  
+
+}
+h4{
+    font-size:30px;
+   font-family: 'Train One', cursive;
+   font-weight: lighter;
+   cursor:pointer;
+   
+   left:300px;
+}
+
+.header{
+    top: 20px;
+    left: 120px;
+    color:bisque;
+    text-align: center;
+    
+    font-size: 50px;
+    cursor:default;
+}
+.header:hover{
+    color:cornsilk;
+    
+}
+.list{
+    margin:10px;
+  
+}
+.list ul{
+    display:flex;
+    list-style-type: none;
+    margin:10px;
+    padding:10px;
+    justify-content:center;
+
+}
+a{
+    color:darkgrey;
+    text-decoration: none; 
+    
+}
+
+ul li{
+  display:grid;
+  grid-template-columns:repeat(9,1fr) ;
+  margin-left:100px;
+}
+h1{
+
+    top:100px;
+    margin-left:200px;
+    font-weight: lighter;
+    color:cornsilk;
+    font-family: 'Train One', cursive;
+}
+.intro{
+    max-width:50vw ;
+    margin-left:200px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', cursive;
+    color:beige;
+    font-size: 18px;
+}
+h4{
+    margin-left:75px;
+}
+
+label{
+    margin-left:75px;
+     border-radius: 5%;
+}
+
+#name{
+    margin-left:75px;
+     border-radius: 5%;
+}
+#number{
+    margin-left:8px;
+     border-radius: 5%;
+}
+#mail{
+    margin-left:55px;
+     border-radius: 5%;
+}
+#message{
+    margin-left:190px;
+    margin-top:-10px;
+}
+
+#submit{
+    margin-left:190px;
+    
+}
+.list2{
+    display:grid;
+    color:darkgray;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+   margin-left: 300px;
+   margin-right: 1000px; 
+   grid-auto-columns: minmax(800px,auto);
+  grid-gap:-200px ;
+}
+.list2 li{
+    padding:10px;
+    background:rgba(0,0,0,0.5);
+}
+
+#gallery{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(250px,auto);
+    grid-gap:10px;
+    
+    max-width:960px;
+    margin:80px;
+    grid-template-areas:"one one two"
+                        "three five two"
+                        "three four four"
+
+}
+
+.one{
+    grid-area:one;
+    background:url('./images/naruto_and_jiraiya.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.one:hover,.two:hover,.three:hover,.four:hover{
+    border:solid rgb(31, 28, 28);
+    border-radius:5%;
+    
+}
+.two{
+    grid-area:two;
+    background:url('./images/naruto_and_jiraiya.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.three{
+    grid-area:three;
+    background:url('./images/naruto_and_jiraiya.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.four{
+    grid-area:four;
+     background:url('./images/naruto_and_jiraiya.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.five{
+    grid-area:five;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+form{
+    padding:50px;
+    margin-left: 50px;
+    margin-right:800px;
+   
+}
+form:hover{
+    background:rgba(0,0,0,0.1);
+    background-position: center;
+    background-size:cover;
+   
+    
+
+}
+
+
